@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    sw的优先级比w高  sw不响应屏幕旋转，只看最短边   w可以响应屏幕旋转，当横屏时，w为长的一遍-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="w361dp"
+        android:textSize="30sp" />
+
+</LinearLayout>
